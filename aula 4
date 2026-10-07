@@ -1,1 +1,20 @@
+# Exercício 01 — Perguntas de levantamento
 
+**Frase do bibliotecário:** "O aluno reserva um livro que está emprestado e a gente avisa quando volta. Se ele não vier buscar, passa para o próximo da fila."
+
+## Seis perguntas de levantamento
+
+1. **Quantos?** Um aluno pode ter várias reservas ao mesmo tempo? Ele pode reservar o mesmo livro duas vezes?
+2. **Quantos?** A reserva é de uma obra (título) ou de um exemplar específico? A fila de espera é por obra ou por exemplar?
+3. **Pode zero?** Pode existir reserva de um livro que está disponível na estante, ou só de livro que está emprestado?
+4. **Pode zero?** Todo aluno precisa ter e-mail ou telefone cadastrado para ser avisado? Pode existir reserva sem esse contato?
+5. **Histórico?** Quando o aluno não vem buscar e a reserva passa para o próximo da fila, a reserva anterior some ou fica registrada (com o motivo)?
+6. **Histórico?** Por quanto tempo a reserva fica guardada depois do aviso? A data e o canal do aviso (e-mail, telefone) precisam ficar registrados?
+
+## Conferência
+
+- Perguntas 1 e 2: cardinalidade ("quantos").
+- Perguntas 3 e 4: obrigatoriedade ("pode zero").
+- Perguntas 5 e 6: histórico.
+
+Duas ou mais perguntas são sobre obrigatoriedade ou histórico, então não usei só a pergunta "quantos".
